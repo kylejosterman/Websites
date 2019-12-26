@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+
+body {
+
+	font-family: 'San Francisco', Arial, sans-serif;
+}
+
+
+.view {
+    background: url("Images/Main Background.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: #3F729B;
+}
+
+.h1 {
+	padding: 25px;
+}
+
+.list-group {
+	display: block;
+}
+
+.embed-responive .embded-responaive-16by9 .beatstars {
+  margin: 0 auto;
+  display: block;
+}
